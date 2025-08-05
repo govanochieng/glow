@@ -14,8 +14,8 @@ balls glowing randomly
         }
         .glow {
             position: fixed;
-            width: 52px;
-            height: 52px;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             pointer-events: none;
             z-index: 10;
