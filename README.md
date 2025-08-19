@@ -19,29 +19,29 @@ balls glowing randomly
             border-radius: 50%;
             pointer-events: none;
             z-index: 10;
-            transition: background 1s linear;
+            transition: background 3s ease;
         }
     </style>
 </head>
 <body>
     <script>
         const colors = [
-            'radial-gradient(circle, #39ff14 40%, rgba(57,255,20,0.5) 70%, transparent 100%)', // green
+            'radial-gradient(circle, #39ff14 40%, rgba(57,255,20,0.3) 70%, transparent 100%)', // green
             'radial-gradient(circle, #ff1493 40%, rgba(255,20,147,0.5) 70%, transparent 100%)', // pink
-            'radial-gradient(circle, #14d3ff 40%, rgba(20,211,255,0.5) 70%, transparent 100%)', // blue
+            'radial-gradient(circle, #14d3ff 40%, rgba(20,211,255,0.2) 70%, transparent 100%)', // blue
             'radial-gradient(circle, #ffd700 40%, rgba(255,215,0,0.5) 70%, transparent 100%)', // gold
-            'radial-gradient(circle, #ff4500 40%, rgba(255,69,0,0.5) 70%, transparent 100%)', // orange
+            'radial-gradient(circle, #ff4500 40%, rgba(255,69,0,0.6) 70%, transparent 100%)', // orange
             'radial-gradient(circle, #9400d3 40%, rgba(148,0,211,0.5) 70%, transparent 100%)', // violet
-            'radial-gradient(circle, #00ffea 40%, rgba(0,255,234,0.5) 70%, transparent 100%)', // cyan
-            'radial-gradient(circle, #fffb00 40%, rgba(255,251,0,0.5) 70%, transparent 100%)',  // yellow
-            'radial-gradient(circle, #ff6347 40%, rgba(255,99,71,0.5) 70%, transparent 100%)',  // tomato
-            'radial-gradient(circle, #00fa9a 40%, rgba(0,250,154,0.5) 70%, transparent 100%)',  // medium spring green
-            'radial-gradient(circle, #1e90ff 40%, rgba(30,144,255,0.5) 70%, transparent 100%)', // dodger blue
-            'radial-gradient(circle, #ff00ff 40%, rgba(255,0,255,0.5) 70%, transparent 100%)',  // magenta
+            'radial-gradient(circle, #00ffea 40%, rgba(0,255,234,0.8) 70%, transparent 100%)', // cyan
+            'radial-gradient(circle, #fffb00 40%, rgba(255,251,0,0.7) 70%, transparent 100%)',  // yellow
+            'radial-gradient(circle, #ff6347 40%, rgba(255,99,71,0.75) 70%, transparent 100%)',  // tomato
+            'radial-gradient(circle, #00fa9a 40%, rgba(0,250,154,0.95) 70%, transparent 100%)',  // medium spring green
+            'radial-gradient(circle, #1e90ff 40%, rgba(30,144,255,0.35) 70%, transparent 100%)', // dodger blue
+            'radial-gradient(circle, #ff00ff 40%, rgba(255,0,255,0.25) 70%, transparent 100%)',  // magenta
             'radial-gradient(circle, #ffa500 40%, rgba(255,165,0,0.5) 70%, transparent 100%)',  // orange
-            'radial-gradient(circle, #00ff7f 40%, rgba(0,255,127,0.5) 70%, transparent 100%)',  // spring green
-            'radial-gradient(circle, #8a2be2 40%, rgba(138,43,226,0.5) 70%, transparent 100%)', // blue violet
-            'radial-gradient(circle, #dc143c 40%, rgba(220,20,60,0.5) 70%, transparent 100%)'   // crimson
+            'radial-gradient(circle, #00ff7f 40%, rgba(0,255,127,0.65) 70%, transparent 100%)',  // spring green
+            'radial-gradient(circle, #8a2be2 40%, rgba(138,43,226,0.15) 70%, transparent 100%)', // blue violet
+            'radial-gradient(circle, #dc143c 40%, rgba(220,20,60,0.95) 70%, transparent 100%)'   // crimson
         ];
         const size = 52;
         const glows = [];
