@@ -1,4 +1,4 @@
-# glow
+# light balls
 balls glowing randomly 
 <!DOCTYPE html>
 <html>
@@ -14,8 +14,8 @@ balls glowing randomly
         }
         .glow {
             position: fixed;
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             pointer-events: none;
             z-index: 10;
